@@ -1,0 +1,45 @@
+.search {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.guess_info {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    overflow: auto;
+    position: absolute;
+    top: 120px;
+    left: 205px;
+}
+
+.info_film_search {
+    cursor: pointer;
+    width: 400px;
+    height: 80px;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    -webkit-box-shadow: 1px 0 8px 0 rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 1px 0 8px 0 rgba(34, 60, 80, 0.2);
+    box-shadow: 1px 0 8px 0 rgba(34, 60, 80, 0.2);
+}
+
+.poster_info {
+    width: 70px;
+    height: 80px;
+    color: #000000;
+    font-size: 15px;
+}
+
+.film_name {
+    color: #010B2E;
+    font-size: 20px;
+    margin-left: 30px;
+}

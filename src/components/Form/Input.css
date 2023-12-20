@@ -1,0 +1,24 @@
+.empty {
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.input {
+    width: 360px;
+    padding: 20px;
+    outline: none;
+}
+
+.label {
+    font-size: 30px;
+    color: #010B2E;
+    margin-top: 40px;
+}
+
+.search_film {
+    width: 1300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}

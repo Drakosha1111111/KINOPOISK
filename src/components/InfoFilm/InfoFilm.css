@@ -1,0 +1,40 @@
+.image {
+    width: 300px;
+    height: 400px;
+}
+
+.film_card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1500px;
+    height: calc(100vh - 74px);
+    -webkit-box-shadow: 0 -1px 8px 0 rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0 -1px 8px 0 rgba(34, 60, 80, 0.2);
+    box-shadow: 0 -1px 8px 0 rgba(34, 60, 80, 0.2);
+}
+
+.subtitle {
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.subtitle_info {
+    color: rgb(0, 0, 0);
+}
+
+.info {
+    width: 700px;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    margin-top: 20px;
+}
+
+.name_film {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.info_about {
+    margin-left: 70px;
+}
